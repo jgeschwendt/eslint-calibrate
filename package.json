@@ -1,0 +1,35 @@
+{
+  "name": "eslint-calibrate",
+  "version": "0.1.0",
+  "description": "ESLint Calibrate Mono-repo",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@eslint-calibrate/eslint-config": "workspace:*",
+    "@eslint-calibrate/eslint-config-node": "workspace:*",
+    "@eslint-calibrate/eslint-plugin": "workspace:*",
+    "eslint": "^7.15.0"
+  },
+  "author": "jgeschwendt",
+  "bugs": {
+    "url": "https://github.com/jgeschwendt/eslint-calibrate/issues"
+  },
+  "homepage": "https://github.com/jgeschwendt/eslint-calibrate#readme",
+  "keywords": [
+    "eslint",
+    "experimental"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgeschwendt/eslint-calibrate.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

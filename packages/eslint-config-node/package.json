@@ -1,0 +1,30 @@
+{
+  "name": "@eslint-calibrate/eslint-config-node",
+  "version": "0.1.0",
+  "description": "Eslint Calibration for Node",
+  "main": "index.js",
+  "files": [
+    "module/index.js",
+    "script/index.js",
+    "typescript/index.js"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  },
+  "peerDependencies": {
+    "@eslint-calibrate/eslint-config": "*",
+    "eslint": ">=7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

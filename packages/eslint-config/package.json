@@ -1,0 +1,23 @@
+{
+  "name": "@eslint-calibrate/eslint-config",
+  "version": "0.1.0",
+  "description": "ESLint Calibrate Defaults",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

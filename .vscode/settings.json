@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.suggestionActions.enabled": false,
+  "search.exclude": {
+    "**/.pnp.*": true,
+    "**/.yarn": true,
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+}

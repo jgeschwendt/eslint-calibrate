@@ -1,0 +1,22 @@
+{
+  "name": "@eslint-calibrate/eslint-config-typescript",
+  "version": "0.1.0",
+  "description": "ESLint Calibrate TypeScript",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  },
+  "peerDependencies": {
+    "@eslint-calibrate/eslint-config": "*",
+    "eslint": ">=7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
