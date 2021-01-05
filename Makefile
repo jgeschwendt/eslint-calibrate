@@ -1,4 +1,4 @@
-NCU_CMD=ncu --dep dev,prod --upgrade
+NCU_CMD=npm-check-updates --dep dev,prod --upgrade
 ncu:
 	@npx ${NCU_CMD} --packageFile ./package.json
 	@npx ${NCU_CMD} --packageFile ./packages/eslint-config/package.json
