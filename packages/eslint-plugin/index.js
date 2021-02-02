@@ -1,6 +1,5 @@
 "use strict";
 
-// ~ The width of what you can see on GitHub
 const LINE_LENGTH = 120;
 const TAB_SIZE = 2;
 
@@ -29,6 +28,7 @@ module.exports = {
           "array-bracket-newline": ["error", "consistent"],
           "array-element-newline": ["error", "consistent"],
           "comma-dangle": ["error", "always-multiline"],
+          "dot-location": ["error", "property"],
           "function-call-argument-newline": ["error", "consistent"],
           "indent": ["error", TAB_SIZE],
           "max-len": ["error", LINE_LENGTH],
@@ -46,6 +46,9 @@ module.exports = {
           }],
           "no-ternary": "off",
           "object-curly-spacing": ["error", "always"],
+          "object-property-newline": ["error", {
+            allowAllPropertiesOnSameLine: true,
+          }],
           "one-var": ["error", "never"],
           "padded-blocks": ["error", "never"],
           "quote-props": ["error", "consistent"],
@@ -82,6 +85,7 @@ module.exports = {
           "@typescript-eslint/no-extra-parens": "off",
           "@typescript-eslint/no-type-alias": "off",
           "@typescript-eslint/prefer-readonly-parameter-types": ["error", {
+            checkParameterProperties: false,
             ignoreInferredTypes: true,
           }],
         },

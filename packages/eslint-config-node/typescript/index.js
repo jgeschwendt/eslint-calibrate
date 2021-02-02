@@ -12,7 +12,7 @@ module.exports = {
   rules: {
     "import/no-nodejs-modules": "off",
     "node/file-extension-in-import": "off",
-    "node/no-missing-import": ["error", { "tryExtensions": [".ts"] }],
+    "node/no-missing-import": "off",
     "node/no-unsupported-features/es-syntax": ["error", { ignores: ["modules"] }],
   },
 };
