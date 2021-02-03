@@ -84,10 +84,8 @@ module.exports = {
           }],
           "@typescript-eslint/no-extra-parens": "off",
           "@typescript-eslint/no-type-alias": "off",
-          "@typescript-eslint/prefer-readonly-parameter-types": ["error", {
-            checkParameterProperties: false,
-            ignoreInferredTypes: true,
-          }],
+          "@typescript-eslint/non-nullable-type-assertion-style": "off",
+          "@typescript-eslint/object-curly-spacing": ["error", "always"],
         },
       },
     },
