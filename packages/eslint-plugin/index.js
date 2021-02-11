@@ -21,6 +21,7 @@ module.exports = {
             position: "before",
           }],
         }],
+        "promise/no-native": "off",
         "sort-imports": "off",
 
         // Stylistic
@@ -53,6 +54,28 @@ module.exports = {
           "padded-blocks": ["error", "never"],
           "quote-props": ["error", "consistent"],
         },
+      },
+    },
+    "react": {
+      rules: {
+        "react/function-component-definition": ["error", {
+          "namedComponents": "arrow-function",
+          "unnamedComponents": "arrow-function",
+        }],
+        "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
+        "react/jsx-indent": ["error", TAB_SIZE, {
+          checkAttributes: true,
+          indentLogicalExpressions: false,
+        }],
+        "react/jsx-indent-props": ["error", TAB_SIZE],
+        "react/jsx-max-props-per-line": ["error", { "when": "multiline" }],
+        "react/jsx-no-literals": ["error", {
+          "allowedStrings": [],
+          "ignoreProps": true,
+          "noAttributeStrings": true,
+          "noStrings": false,
+        }],
+        "react/jsx-props-no-spreading": "off",
       },
     },
     "typescript": {
