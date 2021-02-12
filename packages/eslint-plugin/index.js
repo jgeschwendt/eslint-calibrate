@@ -22,7 +22,10 @@ module.exports = {
           }],
         }],
         "promise/no-native": "off",
-        "sort-imports": "off",
+        // The `import/order` rule manages declaration sorting
+        "sort-imports": ["error", {
+          "ignoreDeclarationSort": true,
+        }],
 
         // Stylistic
         ...{
