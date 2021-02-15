@@ -13,10 +13,10 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "devDependencies": {
-    "eslint": "^7.19.0"
+    "eslint": "^7.20.0"
   },
   "peerDependencies": {
-    "@eslint-calibrate/eslint-config": "*",
+    "@eslint-calibrate/eslint-config": "^0.1.0",
     "eslint": ">=7.14.0"
   },
   "scripts": {
