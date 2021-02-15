@@ -1,6 +1,6 @@
 {
   "name": "@eslint-calibrate/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint Calibrate Defaults",
   "main": "index.js",
   "engines": {
