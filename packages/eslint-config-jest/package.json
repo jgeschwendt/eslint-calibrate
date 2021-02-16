@@ -1,6 +1,6 @@
 {
   "name": "@eslint-calibrate/eslint-config-jest",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ESLint Calibration for Jest",
   "main": "index.js",
   "engines": {
@@ -14,7 +14,7 @@
     "eslint": "^7.20.0"
   },
   "peerDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.1",
+    "@eslint-calibrate/eslint-config": "^0.1.2",
     "eslint": ">=7.0.0"
   },
   "scripts": {
