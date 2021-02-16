@@ -1,7 +1,0 @@
-undecided:
-  - eslint-calibrate
-  - "@eslint-calibrate/eslint-config"
-  - "@eslint-calibrate/eslint-config-jest"
-  - "@eslint-calibrate/eslint-config-node"
-  - "@eslint-calibrate/eslint-config-react"
-  - "@eslint-calibrate/eslint-config-typescript"
