@@ -12,18 +12,9 @@ ncu:
 	yarn
 	# yarn dlx @yarnpkg/pnpify --sdk
 
+version-patch:
+	yarn workspaces foreach version patch
+	yarn version apply --all
+
 publish:
-	yarn workspace @eslint-calibrate/eslint-config \
-		npm publish --access public --tolerate-republish
-	yarn workspace @eslint-calibrate/eslint-config-jest \
-		npm publish --access public --tolerate-republish
-	yarn workspace @eslint-calibrate/eslint-config-node \
-		npm publish --access public --tolerate-republish
-	yarn workspace @eslint-calibrate/eslint-config-react \
-		npm publish --access public --tolerate-republish
-	yarn workspace @eslint-calibrate/eslint-config-typescript \
-		npm publish --access public --tolerate-republish
-	yarn workspace @eslint-calibrate/eslint-config-typescript \
-		npm publish --access public --tolerate-republish
-	yarn workspace @eslint-calibrate/eslint-plugin \
-		npm publish --access public --tolerate-republish
+	yarn workspaces foreach --exclude eslint-calibrate npm publish --access public 
