@@ -6,13 +6,20 @@ module.exports = {
   globals: node.configs["recommended-module"].globals,
   parserOptions: {
     ecmaFeatures: {
-      globalReturn: true,
+      globalReturn: false,
     },
+    sourceType: "module",
   },
   rules: {
-    "import/no-nodejs-modules": "off",
-    "node/file-extension-in-import": "off",
+    // TSC handles missing import errors
     "node/no-missing-import": "off",
-    "node/no-unsupported-features/es-syntax": ["error", { ignores: ["modules"] }],
+
+    // TS Syntax Features
+    "node/no-unsupported-features/es-syntax": ["error", {
+      ignores: [
+        "dynamicModules",
+        "modules",
+      ],
+    }],
   },
 };
