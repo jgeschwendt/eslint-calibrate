@@ -1,6 +1,6 @@
 {
   "name": "eslint-calibrate",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "ESLint Calibrate Monorepo",
   "engines": {
     "node": ">=14.0.0"
