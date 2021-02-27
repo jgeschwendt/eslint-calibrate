@@ -1,6 +1,6 @@
 {
   "name": "@eslint-calibrate/eslint-plugin",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "ESLint Calibrate Plugin",
   "main": "index.js",
   "engines": {
@@ -11,7 +11,7 @@
     "eslint": "^7.20.0"
   },
   "peerDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.4",
+    "@eslint-calibrate/eslint-config": "^0.1.5",
     "eslint": ">=7.0.0"
   },
   "scripts": {
