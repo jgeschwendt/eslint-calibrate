@@ -1,6 +1,6 @@
 {
   "name": "@eslint-calibrate/eslint-config-react",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "ESLint Calibration for React",
   "main": "index.js",
   "engines": {
@@ -13,11 +13,11 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "devDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.5",
+    "@eslint-calibrate/eslint-config": "^0.1.6",
     "eslint": "^7.20.0"
   },
   "peerDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.5",
+    "@eslint-calibrate/eslint-config": "^0.1.6",
     "eslint": ">=7.14.0"
   },
   "scripts": {
