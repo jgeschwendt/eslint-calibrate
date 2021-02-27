@@ -24,7 +24,7 @@ module.exports = {
         'promise/no-native': 'off',
         // The `import/order` rule manages declaration sorting
         'sort-imports': ['error', {
-          'ignoreDeclarationSort': true,
+          ignoreDeclarationSort: true,
         }],
 
         // Stylistic
@@ -56,28 +56,34 @@ module.exports = {
           'one-var': ['error', 'never'],
           'padded-blocks': ['error', 'never'],
           'quote-props': ['error', 'consistent'],
-          'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
+          'quotes': ['error', 'single', {
+            allowTemplateLiterals: true,
+          }],
         },
       },
     },
     'react': {
       rules: {
         'react/function-component-definition': ['error', {
-          'namedComponents': 'arrow-function',
-          'unnamedComponents': 'arrow-function',
+          namedComponents: 'arrow-function',
+          unnamedComponents: 'arrow-function',
         }],
-        'react/jsx-filename-extension': ['error', { 'extensions': ['.jsx', '.tsx'] }],
+        'react/jsx-filename-extension': ['error', {
+          extensions: ['.jsx', '.tsx'],
+        }],
         'react/jsx-indent': ['error', TAB_SIZE, {
           checkAttributes: true,
           indentLogicalExpressions: false,
         }],
         'react/jsx-indent-props': ['error', TAB_SIZE],
-        'react/jsx-max-props-per-line': ['error', { 'when': 'multiline' }],
+        'react/jsx-max-props-per-line': ['error', {
+          when: 'multiline',
+        }],
         'react/jsx-no-literals': ['error', {
-          'allowedStrings': [],
-          'ignoreProps': true,
-          'noAttributeStrings': true,
-          'noStrings': false,
+          allowedStrings: [],
+          ignoreProps: true,
+          noAttributeStrings: true,
+          noStrings: false,
         }],
         'react/jsx-props-no-spreading': 'off',
       },
@@ -113,6 +119,9 @@ module.exports = {
           '@typescript-eslint/no-type-alias': 'off',
           '@typescript-eslint/non-nullable-type-assertion-style': 'off',
           '@typescript-eslint/object-curly-spacing': ['error', 'always'],
+          '@typescript-eslint/quotes': ['error', 'single', {
+            allowTemplateLiterals: true,
+          }],
         },
       },
     },

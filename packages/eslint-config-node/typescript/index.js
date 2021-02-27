@@ -17,7 +17,7 @@ module.exports = {
     // TS Syntax Features
     'node/no-unsupported-features/es-syntax': ['error', {
       ignores: [
-        'dynamicModules',
+        'dynamicImport',
         'modules',
       ],
     }],
