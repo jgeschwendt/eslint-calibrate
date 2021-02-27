@@ -1,16 +1,16 @@
-"use strict";
+'use strict';
 
-const node = require("eslint-plugin-node");
+const node = require('eslint-plugin-node');
 
 module.exports = {
-  globals: node.configs["recommended-script"].globals,
+  globals: node.configs['recommended-script'].globals,
   parserOptions: {
     ecmaFeatures: {
       globalReturn: true,
     },
-    sourceType: "script",
+    sourceType: 'script',
   },
   rules: {
-    "import/no-commonjs": "off",
+    'import/no-commonjs': 'off',
   },
 };

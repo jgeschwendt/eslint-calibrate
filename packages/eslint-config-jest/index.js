@@ -1,8 +1,8 @@
-"use strict";
+'use strict';
 
 module.exports = {
   env: {
     jest: true,
   },
-  extends: ["plugin:jest/all"],
+  extends: ['plugin:jest/all'],
 };
