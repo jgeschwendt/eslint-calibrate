@@ -1,20 +1,16 @@
 # eslint-calibrate
 
 A collection of opt-out eslint configs.
-
 <br/>
-
 ---
-
 <br/>
-
 All rules are enabled, and minimally adjusted to work for specific languages and environements. 
-<br /><br/>
+<br/>
+<br/>
 Adjust the rules to your style, or turn them off to be less OCD.
-
 <br/>
 
-## Installation (Not Published to NPM yet)
+## Installation
 
 ```shell
 # eslint-calibrate depends on eslint
@@ -38,57 +34,51 @@ npm install --save-dev @eslint-calibrate/eslint-jest
 ```javascript
 module.exports = {
   extends: [
-    /**
-     * Uses rules from:
-     *   eslint  
-     *   eslint-plugin-eslint-comments
-     *   eslint-plugin-import
-     *   eslint-plugin-promise
-     *   eslint-plugin-unicorn
-     */
+    // eslint  
+    // eslint-plugin-eslint-comments
+    // eslint-plugin-import
+    // eslint-plugin-promise
+    // eslint-plugin-unicorn
     '@eslint-calibrate'
   ],
   overrides: [{
     extends: [
-      // Uses rules from: @typescript-eslint
+      // @typescript-eslint
       '@eslint-calibrate/typescript'
     ],
     files: ['*.ts', '*.tsx'],
   }, {
     extends: [
-      /**
-       * Uses rules from: 
-       *   eslint-plugin-jsx-a11y
-       *   eslint-plugin-react
-       *   eslint-plugin-react-hooks
-       */
+      // eslint-plugin-jsx-a11y
+      // eslint-plugin-react
+      // eslint-plugin-react-hooks
       '@eslint-calibrate/react'
     ],
     files: ['*.jsx', '*.tsx'],
   }, {
     extends: [
-      // Uses rules from: eslint-plugin-node
+      // eslint-plugin-node
       '@eslint-calibrate/node',
       '@eslint-calibrate/node/module',
     ],
     files: ['*.mjs'],
   }, {
     extends: [
-      // Uses rules from: eslint-plugin-node
+      // eslint-plugin-node
       '@eslint-calibrate/node',
       '@eslint-calibrate/node/script',
     ],
     files: ['.eslintrc.js', '*.cjs', '*.js'],
   }, {
     extends: [
-      // Uses rules from: eslint-plugin-node
+      // eslint-plugin-node
       '@eslint-calibrate/node',
       '@eslint-calibrate/node/typescript',
     ],
     files: ['*.server.ts'],
   }, {
     extends: [
-      // Uses rules from: eslint-plugin-jest
+      // eslint-plugin-jest
       '@eslint-calibrate/jest',
     ],
     files: ['*.test.js'],

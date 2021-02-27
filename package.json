@@ -11,7 +11,8 @@
     "@eslint-calibrate/eslint-config": "workspace:*",
     "@eslint-calibrate/eslint-config-node": "workspace:*",
     "@eslint-calibrate/eslint-plugin": "workspace:*",
-    "eslint": "^7.20.0"
+    "eslint": "^7.20.0",
+    "npm-check-updates": "^11.1.9"
   },
   "author": "jgeschwendt",
   "bugs": {

@@ -18,6 +18,7 @@
     "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
+    "@eslint-calibrate/eslint-config": "^0.1.5",
     "eslint": "^7.20.0"
   },
   "peerDependencies": {
