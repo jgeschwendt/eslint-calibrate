@@ -1,6 +1,6 @@
 {
   "name": "@eslint-calibrate/eslint-config-typescript",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "ESLint Calibration for TypeScript",
   "main": "index.js",
   "license": "ISC",
@@ -10,11 +10,11 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "devDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.6",
+    "@eslint-calibrate/eslint-config": "^0.1.7",
     "eslint": "^7.21.0"
   },
   "peerDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.6",
+    "@eslint-calibrate/eslint-config": "^0.1.7",
     "eslint": ">=7.0.0"
   },
   "scripts": {
