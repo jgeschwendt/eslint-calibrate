@@ -1,6 +1,6 @@
 {
   "name": "@eslint-calibrate/eslint-plugin",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "ESLint Calibrate Plugin",
   "main": "index.js",
   "engines": {
@@ -8,11 +8,11 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.8",
+    "@eslint-calibrate/eslint-config": "^0.1.9",
     "eslint": "^7.26.0"
   },
   "peerDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.8",
+    "@eslint-calibrate/eslint-config": "^0.1.9",
     "eslint": ">=7.0.0"
   },
   "scripts": {
