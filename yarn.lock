@@ -265,11 +265,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eslint-calibrate/eslint-config-jest@workspace:packages/eslint-config-jest"
   dependencies:
-    "@eslint-calibrate/eslint-config": ^0.1.7
+    "@eslint-calibrate/eslint-config": ^0.1.8
     eslint: ^7.26.0
     eslint-plugin-jest: ^24.3.6
   peerDependencies:
-    "@eslint-calibrate/eslint-config": ^0.1.7
+    "@eslint-calibrate/eslint-config": ^0.1.8
     eslint: ">=7.0.0"
   languageName: unknown
   linkType: soft
@@ -278,13 +278,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eslint-calibrate/eslint-config-node@workspace:packages/eslint-config-node"
   dependencies:
-    "@eslint-calibrate/eslint-config": ^0.1.7
+    "@eslint-calibrate/eslint-config": ^0.1.8
     eslint: ^7.26.0
     eslint-import-resolver-node: ^0.3.4
     eslint-plugin-import: ^2.23.2
     eslint-plugin-node: ^11.1.0
   peerDependencies:
-    "@eslint-calibrate/eslint-config": ^0.1.7
+    "@eslint-calibrate/eslint-config": ^0.1.8
     eslint: ">=7.0.0"
   languageName: unknown
   linkType: soft
@@ -293,13 +293,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eslint-calibrate/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
-    "@eslint-calibrate/eslint-config": ^0.1.7
+    "@eslint-calibrate/eslint-config": ^0.1.8
     eslint: ^7.26.0
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-react: ^7.23.2
     eslint-plugin-react-hooks: ^4.2.0
   peerDependencies:
-    "@eslint-calibrate/eslint-config": ^0.1.7
+    "@eslint-calibrate/eslint-config": ^0.1.8
     eslint: ">=7.14.0"
   languageName: unknown
   linkType: soft
@@ -308,18 +308,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eslint-calibrate/eslint-config-typescript@workspace:packages/eslint-config-typescript"
   dependencies:
-    "@eslint-calibrate/eslint-config": ^0.1.7
+    "@eslint-calibrate/eslint-config": ^0.1.8
     "@typescript-eslint/eslint-plugin": ^4.24.0
     "@typescript-eslint/parser": ^4.24.0
     eslint: ^7.26.0
     eslint-plugin-import: ^2.23.2
   peerDependencies:
-    "@eslint-calibrate/eslint-config": ^0.1.7
+    "@eslint-calibrate/eslint-config": ^0.1.8
     eslint: ">=7.0.0"
   languageName: unknown
   linkType: soft
 
-"@eslint-calibrate/eslint-config@*, @eslint-calibrate/eslint-config@^0.1.7, @eslint-calibrate/eslint-config@workspace:packages/eslint-config":
+"@eslint-calibrate/eslint-config@*, @eslint-calibrate/eslint-config@^0.1.8, @eslint-calibrate/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@eslint-calibrate/eslint-config@workspace:packages/eslint-config"
   dependencies:
@@ -337,10 +337,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eslint-calibrate/eslint-plugin@workspace:packages/eslint-plugin"
   dependencies:
-    "@eslint-calibrate/eslint-config": ^0.1.7
+    "@eslint-calibrate/eslint-config": ^0.1.8
     eslint: ^7.26.0
   peerDependencies:
-    "@eslint-calibrate/eslint-config": ^0.1.7
+    "@eslint-calibrate/eslint-config": ^0.1.8
     eslint: ">=7.0.0"
   languageName: unknown
   linkType: soft

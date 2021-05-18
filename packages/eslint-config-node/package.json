@@ -1,6 +1,6 @@
 {
   "name": "@eslint-calibrate/eslint-config-node",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Eslint Calibration for Node",
   "main": "index.js",
   "files": [
@@ -18,11 +18,11 @@
     "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.7",
+    "@eslint-calibrate/eslint-config": "^0.1.8",
     "eslint": "^7.26.0"
   },
   "peerDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.7",
+    "@eslint-calibrate/eslint-config": "^0.1.8",
     "eslint": ">=7.0.0"
   },
   "scripts": {
