@@ -19,6 +19,11 @@ for (const rule in imports.rules) {
   }
 }
 
+// https://github.com/benmosher/eslint-plugin-import/issues/2065
+if (rules['import/no-import-module-exports']) {
+  delete rules['import/no-import-module-exports'];
+}
+
 for (const rule in promise.rules) {
   if (!promise.rules[rule].meta.deprecated) {
     rules[`promise/${rule}`] = 'error';

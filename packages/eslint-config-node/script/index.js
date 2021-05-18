@@ -12,5 +12,6 @@ module.exports = {
   },
   rules: {
     'import/no-commonjs': 'off',
+    'unicorn/prefer-module': 'off',
   },
 };
