@@ -274,7 +274,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eslint-calibrate/eslint-config-node@0.1.9, @eslint-calibrate/eslint-config-node@workspace:packages/eslint-config-node":
+"@eslint-calibrate/eslint-config-node@^0.1.9, @eslint-calibrate/eslint-config-node@workspace:packages/eslint-config-node":
   version: 0.0.0-use.local
   resolution: "@eslint-calibrate/eslint-config-node@workspace:packages/eslint-config-node"
   dependencies:
@@ -319,7 +319,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eslint-calibrate/eslint-config@0.1.9, @eslint-calibrate/eslint-config@^0.1.9, @eslint-calibrate/eslint-config@workspace:packages/eslint-config":
+"@eslint-calibrate/eslint-config@^0.1.9, @eslint-calibrate/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@eslint-calibrate/eslint-config@workspace:packages/eslint-config"
   dependencies:
@@ -333,7 +333,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eslint-calibrate/eslint-plugin@0.1.9, @eslint-calibrate/eslint-plugin@workspace:packages/eslint-plugin":
+"@eslint-calibrate/eslint-plugin@^0.1.9, @eslint-calibrate/eslint-plugin@workspace:packages/eslint-plugin":
   version: 0.0.0-use.local
   resolution: "@eslint-calibrate/eslint-plugin@workspace:packages/eslint-plugin"
   dependencies:
@@ -1638,9 +1638,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eslint-calibrate@workspace:."
   dependencies:
-    "@eslint-calibrate/eslint-config": 0.1.9
-    "@eslint-calibrate/eslint-config-node": 0.1.9
-    "@eslint-calibrate/eslint-plugin": 0.1.9
+    "@eslint-calibrate/eslint-config": ^0.1.9
+    "@eslint-calibrate/eslint-config-node": ^0.1.9
+    "@eslint-calibrate/eslint-plugin": ^0.1.9
     eslint: ^7.26.0
     npm-check-updates: ^11.5.13
   languageName: unknown
