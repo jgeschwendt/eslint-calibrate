@@ -8,11 +8,11 @@
   "license": "ISC",
   "private": true,
   "devDependencies": {
-    "@eslint-calibrate/eslint-config": "workspace:*",
-    "@eslint-calibrate/eslint-config-node": "workspace:*",
-    "@eslint-calibrate/eslint-plugin": "workspace:*",
-    "eslint": "^7.21.0",
-    "npm-check-updates": "^11.1.10"
+    "@eslint-calibrate/eslint-config": "*",
+    "@eslint-calibrate/eslint-config-node": "*",
+    "@eslint-calibrate/eslint-plugin": "*",
+    "eslint": "^7.26.0",
+    "npm-check-updates": "^11.5.13"
   },
   "author": "jgeschwendt",
   "bugs": {

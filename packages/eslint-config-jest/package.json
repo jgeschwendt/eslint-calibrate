@@ -8,11 +8,11 @@
   },
   "license": "ISC",
   "dependencies": {
-    "eslint-plugin-jest": "^24.1.5"
+    "eslint-plugin-jest": "^24.3.6"
   },
   "devDependencies": {
     "@eslint-calibrate/eslint-config": "^0.1.7",
-    "eslint": "^7.21.0"
+    "eslint": "^7.26.0"
   },
   "peerDependencies": {
     "@eslint-calibrate/eslint-config": "^0.1.7",
