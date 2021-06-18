@@ -12,7 +12,7 @@
     "@eslint-calibrate/eslint-config-node": "^0.1.9",
     "@eslint-calibrate/eslint-plugin": "^0.1.9",
     "eslint": "^7.26.0",
-    "npm-check-updates": "^11.5.13"
+    "npm-check-updates": "^11.7.1"
   },
   "author": "jgeschwendt",
   "bugs": {
