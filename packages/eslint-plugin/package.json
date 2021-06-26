@@ -9,7 +9,7 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint-calibrate/eslint-config": "^0.1.10",
-    "eslint": "^7.26.0"
+    "eslint": "^7.29.0"
   },
   "peerDependencies": {
     "@eslint-calibrate/eslint-config": "^0.1.10",

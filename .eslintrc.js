@@ -12,7 +12,4 @@ module.exports = {
   parserOptions: {
     ecmaVersion,
   },
-  rules: {
-    'import/no-import-module-exports': 'off',
-  },
 };
