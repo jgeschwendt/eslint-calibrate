@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@eslint-calibrate/eslint-config": "^0.1.10",
-    "eslint": "^7.29.0"
+    "eslint": "^7.31.0"
   },
   "peerDependencies": {
     "@eslint-calibrate/eslint-config": "^0.1.10",
