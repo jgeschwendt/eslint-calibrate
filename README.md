@@ -16,15 +16,49 @@ Adjust the rules to your style, or turn them off to be less OCD.
 # eslint-calibrate depends on eslint
 npm install --save-dev eslint 
 
+
 # Base Config
+# Uses:
+#   eslint  
+#   eslint-plugin-eslint-comments
+#   eslint-plugin-import
+#   eslint-plugin-promise
+#   eslint-plugin-unicorn
 npm install --save-dev @eslint-calibrate/eslint-config
 
+
+#
 # Language configs
+#
+
+# TypeScript 
+# Uses:
+#   @typescript-eslint/eslint-plugin
+#   eslint-plugin-import
 npm install --save-dev @eslint-calibrate/eslint-typescript
 
+
+#
 # Environment/Package configs
+#
+
+# Node.js 
+# Uses:
+#   eslint-plugin-import
+#   eslint-plugin-node
 npm install --save-dev @eslint-calibrate/eslint-node
+
+# React 
+# Uses:
+#   eslint-plugin-jsx-a11y
+#   eslint-plugin-react
+#   eslint-plugin-react-hooks
 npm install --save-dev @eslint-calibrate/eslint-react
+
+# Jest 
+# Uses:
+#   @typescript-eslint/eslint-plugin
+#   eslint-plugin-import
 npm install --save-dev @eslint-calibrate/eslint-jest
 ```
 
@@ -34,51 +68,38 @@ npm install --save-dev @eslint-calibrate/eslint-jest
 ```javascript
 module.exports = {
   extends: [
-    // eslint  
-    // eslint-plugin-eslint-comments
-    // eslint-plugin-import
-    // eslint-plugin-promise
-    // eslint-plugin-unicorn
     '@eslint-calibrate'
   ],
   overrides: [{
     extends: [
-      // @typescript-eslint
       '@eslint-calibrate/typescript'
     ],
     files: ['*.ts', '*.tsx'],
   }, {
     extends: [
-      // eslint-plugin-jsx-a11y
-      // eslint-plugin-react
-      // eslint-plugin-react-hooks
       '@eslint-calibrate/react'
     ],
     files: ['*.jsx', '*.tsx'],
   }, {
     extends: [
-      // eslint-plugin-node
       '@eslint-calibrate/node',
       '@eslint-calibrate/node/module',
     ],
     files: ['*.mjs'],
   }, {
     extends: [
-      // eslint-plugin-node
       '@eslint-calibrate/node',
       '@eslint-calibrate/node/script',
     ],
     files: ['.eslintrc.js', '*.cjs', '*.js'],
   }, {
     extends: [
-      // eslint-plugin-node
       '@eslint-calibrate/node',
       '@eslint-calibrate/node/typescript',
     ],
     files: ['*.server.ts'],
   }, {
     extends: [
-      // eslint-plugin-jest
       '@eslint-calibrate/jest',
     ],
     files: ['*.test.js'],
