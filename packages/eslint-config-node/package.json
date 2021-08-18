@@ -13,13 +13,13 @@
   },
   "license": "ISC",
   "dependencies": {
-    "eslint-import-resolver-node": "^0.3.4",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
     "@eslint-calibrate/eslint-config": "^0.1.10",
-    "eslint": "^7.29.0"
+    "eslint": "^7.32.0"
   },
   "peerDependencies": {
     "@eslint-calibrate/eslint-config": "^0.1.10",

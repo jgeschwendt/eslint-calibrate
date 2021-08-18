@@ -12,4 +12,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion,
   },
+  rules: {
+    'unicorn/no-useless-spread': 'off',
+  },
 };
