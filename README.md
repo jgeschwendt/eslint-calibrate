@@ -1,9 +1,9 @@
 # eslint-calibrate
 
+[![Node.js CI](https://github.com/jgeschwendt/eslint-calibrate/actions/workflows/node.yml/badge.svg)](https://github.com/jgeschwendt/eslint-calibrate/actions/workflows/node.yml)
+
 A collection of opt-out eslint configs.
-<br/>
 ---
-<br/>
 All rules are enabled, and minimally adjusted to work for specific languages and environements. 
 <br/>
 <br/>
