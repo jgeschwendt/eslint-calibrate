@@ -7,7 +7,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
-    "eslint-plugin-import": "^2.24.0"
+    "eslint-plugin-import": "^2.25.2"
   },
   "devDependencies": {
     "@eslint-calibrate/eslint-config": "^0.1.11",
