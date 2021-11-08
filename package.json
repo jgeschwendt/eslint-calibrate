@@ -11,7 +11,7 @@
     "@eslint-calibrate/eslint-config": "^0.1.11",
     "@eslint-calibrate/eslint-config-node": "^0.1.11",
     "@eslint-calibrate/eslint-plugin": "^0.1.11",
-    "eslint": "^7.32.0",
+    "eslint": "^8.2.0",
     "npm-check-updates": "^11.8.3"
   },
   "author": "jgeschwendt",
