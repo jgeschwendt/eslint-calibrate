@@ -1,6 +1,6 @@
 {
   "name": "eslint-calibrate",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "ESLint Calibrate Monorepo",
   "engines": {
     "node": ">=14.0.0"
@@ -8,9 +8,9 @@
   "license": "ISC",
   "private": true,
   "devDependencies": {
-    "@eslint-calibrate/eslint-config": "^0.1.11",
-    "@eslint-calibrate/eslint-config-node": "^0.1.11",
-    "@eslint-calibrate/eslint-plugin": "^0.1.11",
+    "@eslint-calibrate/eslint-config": "^0.1.12",
+    "@eslint-calibrate/eslint-config-node": "^0.1.12",
+    "@eslint-calibrate/eslint-plugin": "^0.1.12",
     "eslint": "^8.2.0",
     "npm-check-updates": "^12.0.2"
   },
