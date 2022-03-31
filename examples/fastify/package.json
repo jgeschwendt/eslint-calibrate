@@ -1,0 +1,28 @@
+{
+  "name": "eslint-calibrate-example-fastify",
+  "scripts": {
+    "lint": "npx eslint . --fix",
+    "test": "npx eslint . && npx jest"
+  },
+  "dependencies": {
+    "fastify": "3.27.4"
+  },
+  "devDependencies": {
+    "@eslint-calibrate/eslint-config": "../../packages/eslint-config",
+    "@eslint-calibrate/eslint-config-jest": "../../packages/eslint-config-jest",
+    "@eslint-calibrate/eslint-config-node": "../../packages/eslint-config-node",
+    "@eslint-calibrate/eslint-config-react": "../../packages/eslint-config-react",
+    "@eslint-calibrate/eslint-config-typescript": "../../packages/eslint-config-typescript",
+    "@eslint-calibrate/eslint-plugin": "../../packages/eslint-plugin",
+    "@swc/jest": "0.2.20",
+    "@types/jest": "27.4.1",
+    "eslint": "8.12.0",
+    "jest": "27.5.1",
+    "typescript": "4.6.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(t|j)sx?$": "@swc/jest"
+    }
+  }
+}

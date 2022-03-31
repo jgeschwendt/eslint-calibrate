@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "@eslint-calibrate",
+    "@eslint-calibrate/node",
+    "@eslint-calibrate/node/script",
+    "plugin:@eslint-calibrate/calibrate"
+  ]
+}

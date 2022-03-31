@@ -2,10 +2,13 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "javascript.suggestionActions.enabled": false,
   "search.exclude": {
     "**/.pnp.*": true,
-    "**/.yarn": true,
+    "**/.yarn": true
   },
   "typescript.enablePromptUseWorkspaceTsdk": true,
+  "cSpell.words": ["fastify"]
 }

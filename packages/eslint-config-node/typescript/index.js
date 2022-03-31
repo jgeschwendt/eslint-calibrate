@@ -15,11 +15,11 @@ module.exports = {
     'node/no-missing-import': 'off',
 
     // TS Syntax Features
-    'node/no-unsupported-features/es-syntax': ['error', {
-      ignores: [
-        'dynamicImport',
-        'modules',
-      ],
-    }],
+    'node/no-unsupported-features/es-syntax': [
+      'error',
+      {
+        ignores: ['dynamicImport', 'modules'],
+      },
+    ],
   },
 };

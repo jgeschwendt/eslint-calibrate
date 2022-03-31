@@ -3,7 +3,6 @@
 const comments = require('eslint-plugin-eslint-comments');
 const imports = require('eslint-plugin-import');
 const promise = require('eslint-plugin-promise');
-const unicorn = require('eslint-plugin-unicorn');
 
 const rules = {};
 
@@ -25,19 +24,8 @@ for (const rule in promise.rules) {
   }
 }
 
-for (const rule in unicorn.rules) {
-  if (!unicorn.rules[rule].meta.deprecated) {
-    rules[`unicorn/${rule}`] = 'error';
-  }
-}
-
 module.exports = {
-  extends: ['eslint:all'],
-  plugins: [
-    'eslint-comments',
-    'import',
-    'promise',
-    'unicorn',
-  ],
+  extends: ['eslint:all', 'plugin:unicorn/all'],
+  plugins: ['eslint-comments', 'import', 'promise'],
   rules,
 };

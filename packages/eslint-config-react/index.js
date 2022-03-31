@@ -30,10 +30,6 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: [
-    'jsx-a11y',
-    'react',
-    'react-hooks',
-  ],
+  plugins: ['jsx-a11y', 'react', 'react-hooks'],
   rules,
 };
