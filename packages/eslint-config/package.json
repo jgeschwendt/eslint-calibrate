@@ -11,7 +11,7 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-unicorn": "^41.0.1"
+    "eslint-plugin-unicorn": "^42.0.0"
   },
   "devDependencies": {
     "eslint": "^8.12.0"
