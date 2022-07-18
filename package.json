@@ -11,7 +11,7 @@
     "@eslint-calibrate/eslint-config": "^0.1.12",
     "@eslint-calibrate/eslint-config-node": "^0.1.12",
     "@eslint-calibrate/eslint-plugin": "^0.1.12",
-    "eslint": "^8.12.0",
+    "eslint": "^8.20.0",
     "npm-check-updates": "^12.5.4",
     "prettier": "^2.6.1"
   },
