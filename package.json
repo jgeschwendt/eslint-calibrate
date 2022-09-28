@@ -12,7 +12,7 @@
     "@eslint-calibrate/eslint-config-node": "^0.1.12",
     "@eslint-calibrate/eslint-plugin": "^0.1.12",
     "eslint": "^8.12.0",
-    "npm-check-updates": "^12.5.4",
+    "npm-check-updates": "^16.3.3",
     "prettier": "^2.6.1"
   },
   "author": "jgeschwendt",
